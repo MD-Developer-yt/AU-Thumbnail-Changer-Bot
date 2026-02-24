@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: cantarellabots-thumbnail-bot
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: API_TOKEN
+        sync: false
+      - key: MONGO_URL
+        sync: false
+      - key: OWNER_ID
+        sync: false
+      - key: CHANNEL_URL
+        sync: false
+      - key: DEV_URL
+        sync: false

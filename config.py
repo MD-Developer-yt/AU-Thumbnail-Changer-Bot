@@ -14,7 +14,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7284759394")) #add your User id
 # UI URLs - Multiple images that rotate randomly
 # Use DIRECT image URLs (https://i.ibb.co/...) not page URLs (https://ibb.co/...)
 START_PICS = [
-    "https://i.ibb.co/0jjgxKM4/changli-wuthering-waves-4k-wallpaper-uhdpaper-com-437-2-b.jpg"",
+    "https://i.ibb.co/0jjgxKM4/changli-wuthering-waves-4k-wallpaper-uhdpaper-com-437-2-b.jpg",
     # Add more direct image URLs here
 ]
 #Don't Remove Credits 

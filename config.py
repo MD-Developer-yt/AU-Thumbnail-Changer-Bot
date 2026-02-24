@@ -10,7 +10,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7284759394"))
 # UI URLs - Multiple images that rotate randomly
 # Use DIRECT image URLs (https://i.ibb.co/...) not page URLs (https://ibb.co/...)
 START_PICS = [
-    "https://files.catbox.moe/hh2ubq.jpg",
+    "https://graph.org/file/0e77ba48a8b7a3b09296f-362372bee0d84fd217.jpg",
     # Add more direct image URLs here
 ]
 CHANNEL_URL = os.environ.get("CHANNEL_URL", "https://t.me/Anime_UpdatesAU")

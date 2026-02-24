@@ -1,90 +1,63 @@
-# 🎬 Anime_UpdatesAU - Thumbnail Changer Bot
-
-<pre style="font-family:monospace; text-align:center;">
-░█▀▀█ ░█▄─░█ ▀█▀ ░█▀▄▀█ ░█▀▀▀ ░█─░█ ░█▀▀█ ░█▀▀█ ░█▀▀▀ ░█▀▀▀ ░█▀▀▀█ ░█▀▀▀█ ░█░░░ ░█▀▀▀█ 
-░█▄▄█ ░█░█░█ ░█─ ░█░█░█ ░█▀▀▀ ░█─░█ ░█▄▄█ ░█▄▄█ ░█▀▀▀ ░█▀▀▀ ░█░░▒█ ░█░░▒█ ░█░░░ ░█░░▒█ 
-░█─░█ ░█──▀█ ▄█▄ ░█──░█ ░█▄▄▄ ─▀▄▄▀ ░█─── ░█──░█ ░█▄▄▄ ░█▄▄▄ ░█▄▄▄█ ░█▄▄▄█ ░█▄▄█ ░█▄▄▄█
-</pre>
-
-<p align="center">
-  <img src="https://telegra.ph/file/abc123_thumbnail_preview.jpg" width="400" alt="Thumbnail Preview">
-</p>
-
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=53EFF0&background=000000&width=435&lines=Welcome+To+Anime_UpdatesAU+Github%2CIt+is+Amazing+AU+Thumbnail+Changer+Bot%2C+Bot+is+made+by+Mohammed)](https://git.io/typing-svg)
 ---
 
-## ✨ Features
+## 🛠 Features
 
 <ul>
-<li>🖼 <b>Custom Thumbnail Support</b> – Change thumbnails of videos, audio, or documents</li>
-<li>📝 <b>Auto-Rename Files</b> – Rename before sending</li>
-<li>💬 <b>Custom Captions</b> – Add captions to your files</li>
-<li>⚡ <b>Supports Large Files</b> – Works with files up to 2GB+</li>
-<li>🎛 <b>Inline Commands & Buttons</b> – Easy to use</li>
-<li>💻 <b>Cross-Platform Compatible</b> – Works on Android, PC, or Server</li>
+<li>🖼️ <b>Custom Thumbnails</b> – Set your own cover for videos (PNG, JPG, JPEG)</li>
+<li>⚡ <b>Fast Processing</b> – Instant video forwarding</li>
+<li>🔄 <b>Rotating Images</b> – Dynamic start images</li>
+<li>👥 <b>User Database</b> – MongoDB storage</li>
+<li>🏆 <b>Leaderboard</b> – Track top users</li>
+<li>🛡️ <b>Admin Controls</b> – Ban, Broadcast, Stats</li>
+<li>📏 <b>Recommended Size</b> – 1280x720 px, under 2 MB, Ratio 16:9 or 16:8</li>
+<li>🐍 <b>Python 3</b> – Uses latest Python 3 version</li>
+<li>⚡ <b>Pyrogram</b> – Lightweight Telegram API framework</li>
 </ul>
 
 ---
 
-## ⚙️ Commands
+## 🖼️ Thumbnail Recommendations
 
-<table>
-<tr><th>Command</th><th>Description</th></tr>
-<tr><td>/start</td><td>Start the bot</td></tr>
-<tr><td>/help</td><td>List all features</td></tr>
-<tr><td>/about</td><td>About the bot & developer</td></tr>
-<tr><td>/setthumb</td><td>Upload/set a custom thumbnail</td></tr>
-<tr><td>/rename</td><td>Rename file & apply thumbnail</td></tr>
-<tr><td>/showthumb</td><td>Preview current thumbnail</td></tr>
-</table>
-
----
-
-## 🖼 Thumbnail Guidelines
-
-<ul>
-<li>Format: <b>.jpg</b> or <b>.png</b></li>
-<li>Recommended Size: <b>1280x720 px</b></li>
-<li>Max Size: <b>2 MB</b></li>
-<li>Aspect Ratio: <b>16:9</b></li>
-</ul>
-
-> ⚠️ Keep thumbnails high-quality for best results.
+<div style="background-color:#f0f8ff; border-left:5px solid #1e90ff; padding:12px; margin:10px 0; border-radius:5px;">
+<b>✅ Recommended:</b><br>
+• Size: <b>1280x720 px</b><br>
+• Maximum file size: <b>2 MB</b><br>
+• Aspect Ratio: <b>16:9 or 16:8</b><br>
+• Supported formats: <b>PNG, JPG, JPEG</b><br>
+<b>💡 Tip:</b> Using the recommended size ensures thumbnails display perfectly on Telegram.
+</div>
 
 ---
 
 ## 🚀 Deployment
 
-<pre style="background:#1e1e1e; color:#ffffff; padding:10px;">
-# Clone Repo
-git clone https://github.com/YourUsername/Anime_UpdatesAU.git
-cd Anime_UpdatesAU
-
-# Install Dependencies
-pip install -r requirements.txt
-
-# Run Bot
-python main.py
-</pre>
-
-> Set your <b>API ID</b>, <b>API HASH</b>, and <b>BOT TOKEN</b> in <code>config.py</code>
-
----
-
-## 📸 Screenshots / Demo
-
-<p align="center">
-  <img src="https://telegra.ph/file/abc123_thumbnail_preview.jpg" width="400" alt="Thumbnail Preview">
-  <br><br>
-  <img src="https://telegra.ph/file/def456_bot_interface.jpg" width="400" alt="Bot Interface">
+<p>
+<a href="https://www.heroku.com/" target="_blank" style="background-color:#430098;color:white;padding:8px 12px;text-decoration:none;border-radius:5px;">Deploy on Heroku</a>
+<a href="https://render.com/" target="_blank" style="background-color:#00BFFF;color:white;padding:8px 12px;text-decoration:none;border-radius:5px;">Deploy on Render</a>
+<a href="https://www.koyeb.com/" target="_blank" style="background-color:#1E90FF;color:white;padding:8px 12px;text-decoration:none;border-radius:5px;">Deploy on Koyeb</a>
 </p>
 
+**Steps:**  
+1. Fork this repo: <a href="https://github.com/MD-Developer-yt/AU-Thumbnail-Changer-Bot" target="_blank">AU Thumbnail Changer Bot  Repo</a>  
+2. Create new App / Service  
+3. Connect GitHub repo  
+4. Add environment variables / config vars  
+5. Deploy  
+
 ---
 
-## 🚀 Quick Links
+## 🐳 Docker
+
+```bash
+docker build -t anime_updatesau-thumbnail-bot .
+docker run --env-file .env anime_updatesau-thumbnail-bot
+
+═★═★═★═ **🚀 Quick Links** ═★═★═★═  
 
 <p align="center">
 
-<a href="https://t.me/YourBotUsername" target="_blank" style="
+<a href="https://t.me/AU_Thumbnail_Changer_bot" target="_blank" style="
   background-color:#ff4c4c;
   color:white;
   padding:12px 24px;
@@ -97,7 +70,7 @@ python main.py
   🤖 Open Bot
 </a>
 
-<a href="https://t.me/YourSupportGroup" target="_blank" style="
+<a href="https://t.me/AU_Bot_Discussion" target="_blank" style="
   background-color:#4caf50;
   color:white;
   padding:12px 24px;
@@ -109,7 +82,7 @@ python main.py
   💬 Support Group
 </a>
 
-<a href="https://github.com/YourUsername/Anime_UpdatesAU" target="_blank" style="
+<a href="https://github.com/MD-Developer-yt/AU-Thumbnail-Changer-Bot" target="_blank" style="
   background-color:#1e90ff;
   color:white;
   padding:12px 24px;
@@ -126,10 +99,10 @@ python main.py
 
 ---
 
-## 🏆 Credits
+═★═★═★═ **🏆 Credits** ═★═★═★═  
 
-- Developer: <a href="https://t.me/YourTelegram"><b>Your Name</b></a>  
-- Framework: <a href="https://docs.pyrogram.org/"><b>Pyrogram</b></a>  
+- Developer: <a href="https://t.me/Mr_Mohammed_29"><b>ᴍᴏʜᴀᴍᴍᴇᴅ</b></a>  
+- Framework: <a href="https://docs.pyrogram.org/"><b>ᴘʏʀᴏɢʀᴀᴍ</b></a>  
 
 ---
 

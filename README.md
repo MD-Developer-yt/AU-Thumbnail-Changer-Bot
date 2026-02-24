@@ -168,9 +168,6 @@ These are the **environment variables** required to run Bot:
 | `/unban` | (Admin) Unban a user |
 | `/add_admin` | (Owner) Add a new admin |
 | `/remove_admin` | (Owner) Remove an admin |
-| `/set_thumbnail` | Upload or change a custom thumbnail |
-| `/view_thumbnail` | View the current thumbnail |
-| `/remove_thumbnail` | Remove the current thumbnail |
 
 <p align="center">
   💡 Tip: Copy these commands and send to your bot to test 

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?lines=Welcome+To+Anime_UpdatesAU+Github+Im+AU+Thumbnail+Changer+Bot+Bot+is+Made+By+Mohammed&font=Fira+Code&size=30&duration=3000&color=1e90ff&center=true" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?lines=Welcome+To+AU+Thumbnail+Changer+Bot+Bot+is+Made+By+Mohammed&font=Fira+Code&size=30&duration=3000&color=1e90ff&center=true" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -67,7 +67,7 @@
 
 ## ⚙️ Configuration
 
-These are the **environment variables** required to run Anime_UpdatesAU:
+These are the **environment variables** required to run Bot:
 
 <table>
   <thead>

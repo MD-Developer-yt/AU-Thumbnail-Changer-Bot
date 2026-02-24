@@ -17,6 +17,11 @@ def small_caps(text: str) -> str:
         else:
             result += char
     return result
+    
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 
 @router.message(Command("start"))
 async def start_cmd(message: types.Message, bot: Bot):
@@ -66,10 +71,10 @@ async def start_cmd(message: types.Message, bot: Bot):
     # Buttons
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [
-            InlineKeyboardButton(text="📢 Join Channel", url=CHANNEL_URL),
-            InlineKeyboardButton(text="👨‍💻 Developer", url=DEV_URL)
+            InlineKeyboardButton(text="📢 ᴜᴘᴅᴀᴛᴇs", url=CHANNEL_URL),
+            InlineKeyboardButton(text="👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=DEV_URL)
         ],
-        [InlineKeyboardButton(text="⚙️ Settings", callback_data="settings")]
+        [InlineKeyboardButton(text="⚙️ sᴇᴛᴛɪɴɢs", callback_data="settings")]
     ])
     
     # Get random image
@@ -96,3 +101,8 @@ async def start_cmd(message: types.Message, bot: Bot):
         parse_mode="HTML",
         reply_markup=keyboard
     )
+    
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29

@@ -1,8 +1,16 @@
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 from aiogram import Bot, Dispatcher
 from aiogram.fsm.storage.memory import MemoryStorage
 import asyncio
 from flask import Flask
-import threading
+import threading 
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 import os
 from config import API_TOKEN
 from database import init_db, close_db
@@ -46,3 +54,7 @@ if __name__ == "__main__":
     print("Starting Bot...")
     threading.Thread(target=run_flask, daemon=True).start()
     asyncio.run(main())
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29

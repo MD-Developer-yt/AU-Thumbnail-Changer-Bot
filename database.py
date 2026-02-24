@@ -24,7 +24,10 @@ async def close_db():
     global client
     if client:
         client.close()
-
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 # ==================== USER FUNCTIONS ====================
 
 async def add_user(user_id: int, username: str = None, first_name: str = None):
@@ -57,7 +60,10 @@ async def get_all_users() -> List[Dict[str, Any]]:
 async def get_user_count() -> int:
     """Get total user count."""
     return await db.users.count_documents({})
-
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 # ==================== THUMBNAIL FUNCTIONS ====================
 
 async def set_thumbnail(user_id: int, file_id: str):
@@ -79,7 +85,10 @@ async def remove_thumbnail(user_id: int) -> bool:
         {"$set": {"thumbnail_file_id": None}}
     )
     return result.modified_count > 0
-
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 # ==================== USAGE TRACKING ====================
 
 async def increment_usage(user_id: int):
@@ -117,7 +126,10 @@ async def is_banned(user_id: int) -> bool:
     """Check if user is banned."""
     user = await db.users.find_one({"user_id": user_id})
     return user.get("banned", False) if user else False
-
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 # ==================== ADMIN FUNCTIONS ====================
 
 async def add_admin(user_id: int):
@@ -146,3 +158,7 @@ async def get_all_admins() -> List[int]:
     """Get all admin IDs."""
     admins = await db.admins.find().to_list(length=None)
     return [a["user_id"] for a in admins]
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29

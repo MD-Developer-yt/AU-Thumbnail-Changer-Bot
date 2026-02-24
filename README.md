@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?lines=Welcome+To+AU+Thumbnail+Changer+Bot+Bot+is+Made+By+Mohammed&font=Fira+Code&size=30&duration=3000&color=1e90ff&center=true" alt="Typing SVG" />
-</p>
+https://readme-typing-svg.demolab.com/demo/?color=36BCF7F1&lines=Welcome+To+MD+Developer+Yt+Github;It+is+Amazing+AU+Thumbnail+Changer+Bot+;Bot+is+Made+By+Mohammed
 
 <p align="center">
   <a href="https://www.python.org/" target="_blank">

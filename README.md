@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=53EFF0&background=000000&width=435&lines=Welcome+To+Anime_UpdatesAU+Github%2CIt+is+Amazing+AU+Thumbnail+Changer+Bot%2C+Bot+is+made+by+Mohammed)](https://git.io/typing-svg)
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=53EFF0&background=FF000000&width=435&lines=Welcome+To+Anime_UpdatesAU+Github%2CIt+is+Amazing+AU+Thumbnail+Changer+Bot%2C+Bot+is+made+by+Mohammed" alt="Typing SVG" /></a>
 ---
 
 ## 🛠 Features
@@ -52,6 +52,11 @@
 ```bash
 docker build -t anime_updatesau-thumbnail-bot .
 docker run --env-file .env anime_updatesau-thumbnail-bot
+
+💻 Local
+
+pip install -r requirements.txt
+python main.py
 
 ═★═★═★═ **🚀 Quick Links** ═★═★═★═  
 

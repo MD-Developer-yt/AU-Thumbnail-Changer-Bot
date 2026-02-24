@@ -19,18 +19,27 @@ def small_caps(text: str) -> str:
         else:
             result += char
     return result
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 
 class ThumbnailState(StatesGroup):
     waiting_for_thumbnail = State()
 def get_settings_keyboard():
     """Return the settings inline keyboard."""
     return InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="🖼️ Update Thumbnail", callback_data="update_thumb")],
-        [InlineKeyboardButton(text="👁️ View Thumbnail", callback_data="view_thumb")],
-        [InlineKeyboardButton(text="🗑️ Remove Thumbnail", callback_data="remove_thumb")],
-        [InlineKeyboardButton(text="🔙 Back", callback_data="back_to_start")],
-        [InlineKeyboardButton(text="❌ Close", callback_data="close_settings")]
+        [InlineKeyboardButton(text="🖼️ ᴜᴘᴅᴀᴛᴇ ᴛʜᴜᴍʙɴᴀɪʟ", callback_data="update_thumb")],
+        [InlineKeyboardButton(text="👁️ ᴠɪᴇᴡ ᴛʜᴜᴍʙɴᴀɪʟ", callback_data="view_thumb")],
+        [InlineKeyboardButton(text="🗑️ ʀᴇᴍᴏᴠᴇ ᴛʜᴜᴍʙɴᴀɪʟ", callback_data="remove_thumb")],
+        [InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="back_to_start")],
+        [InlineKeyboardButton(text="❌ ᴄʟᴏsᴇ", callback_data="close_settings")]
     ])
+
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 
 @router.callback_query(F.data == "settings")
 async def show_settings(callback: CallbackQuery, bot: Bot):
@@ -81,10 +90,10 @@ async def back_to_start(callback: CallbackQuery, bot: Bot):
     
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [
-            InlineKeyboardButton(text="📢 Join Channel", url=CHANNEL_URL),
-            InlineKeyboardButton(text="👨‍💻 Developer", url=DEV_URL)
+            InlineKeyboardButton(text="📢 ᴜᴘᴅᴀᴛᴇs", url=CHANNEL_URL),
+            InlineKeyboardButton(text="👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=DEV_URL)
         ],
-        [InlineKeyboardButton(text="⚙️ Settings", callback_data="settings")]
+        [InlineKeyboardButton(text="⚙️ sᴇᴛᴛɪɴɢs", callback_data="settings")]
     ])
     
     try:
@@ -132,6 +141,11 @@ async def update_thumbnail_prompt(callback: CallbackQuery, state: FSMContext, bo
         reply_markup=keyboard
     )
     await callback.answer()
+    
+    #Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 
 @router.callback_query(F.data == "cancel_update")
 async def cancel_update(callback: CallbackQuery, state: FSMContext, bot: Bot):
@@ -158,6 +172,11 @@ async def receive_thumbnail(message: types.Message, state: FSMContext):
         parse_mode="HTML",
         reply_markup=keyboard
     )
+    
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 
 @router.callback_query(F.data == "view_thumb")
 async def view_thumbnail(callback: CallbackQuery, bot: Bot):
@@ -192,6 +211,11 @@ async def view_thumbnail(callback: CallbackQuery, bot: Bot):
         )
     await callback.answer()
 
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
+
 @router.callback_query(F.data == "remove_thumb")
 async def remove_thumbnail_handler(callback: CallbackQuery, bot: Bot):
     """Remove the user's thumbnail."""
@@ -199,7 +223,7 @@ async def remove_thumbnail_handler(callback: CallbackQuery, bot: Bot):
     removed = await remove_thumbnail(user_id)
     
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="⚙️ Back to Settings", callback_data="settings")]
+        [InlineKeyboardButton(text="⚙️ ʙᴀᴄᴋ ᴛᴏ sᴇᴛᴛɪɴɢs", callback_data="settings")]
     ])
     
     if removed:
@@ -235,4 +259,9 @@ async def close_settings(callback: CallbackQuery):
     except TelegramBadRequest:
         pass
     await callback.answer(small_caps("Settings closed"))
+
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 

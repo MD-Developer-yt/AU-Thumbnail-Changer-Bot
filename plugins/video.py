@@ -1,3 +1,7 @@
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 from aiogram import Router, types, F, Bot
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from config import LOG_CHANNEL
@@ -16,6 +20,10 @@ def small_caps(text: str) -> str:
         else:
             result += char
     return result
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 
 @router.message(F.video)
 async def handle_video(message: types.Message, bot: Bot):
@@ -79,3 +87,8 @@ async def handle_video(message: types.Message, bot: Bot):
             parse_mode="HTML",
             reply_markup=keyboard
         )
+        
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29

@@ -46,25 +46,50 @@
 
 ---
 
----
+<details>
+<summary><h3>
+- <b> ᴅᴇᴘʟᴏʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅs </b>
+</h3></summary>
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
+</h3>
 
-## 🚀 Deployment
-
-<p align="center">
-  <a href="https://www.heroku.com/" target="_blank" style="background-color:#430098;color:white;padding:8px 12px;text-decoration:none;border-radius:5px;margin:4px;">Deploy on Heroku</a>
-  <a href="https://render.com/" target="_blank" style="background-color:#00BFFF;color:white;padding:8px 12px;text-decoration:none;border-radius:5px;margin:4px;">Deploy on Render</a>
-  <a href="https://www.koyeb.com/" target="_blank" style="background-color:#1E90FF;color:white;padding:8px 12px;text-decoration:none;border-radius:5px;margin:4px;">Deploy on Koyeb</a>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Codeflix-Bots/ProRenameBot">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy On Heroku">
+</a></p>
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴋᴏʏᴇʙ 」─
+</h3>
+<p align="center"><a href="https://app.koyeb.com/deploy?type=git&repository=github.com/Codeflix-Bots/ProRenameBot&branch=main&name=ProRenameBot">
+  <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy On Koyeb">
+</a></p>
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʀᴇɴᴅᴇʀ 」─
+</h3>
+<p align="center"><a href="https://render.com/deploy?repo=https://github.com/Codeflix-Bots/ProRenameBot">
+<img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+</a></p>
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ᴠᴘs 」─
+</h3>
+<p>
+<pre>
+💻 Local
+  pip install -r requirements.txt
+python main.py
+</pre>
 </p>
+</details>
 
 ### Steps to Deploy:
 
-1. Fork this repo: <a href="https://github.com/yourusername/anime_updatesau" target="_blank">Anime_UpdatesAU Repo</a>  
+1. Fork this repo
 2. Create a new App / Service on the chosen platform.  
 3. Connect your GitHub repository.  
 4. Add environment variables / config vars.  
 5. Deploy and start your bot.  
 
-💡 **Tip:** Make sure `API_TOKEN`, `MONGO_URL`, and `OWNER_ID` are set before running the bot.
+💡 **Tip:** Make sure `API_TOKEN (Bot Token)`, `MONGO_URL`, and `OWNER_ID` are set before running the bot.
 
 ---
 
@@ -124,8 +149,6 @@ These are the **environment variables** required to run Bot:
 ---
 
 ---
-
-## 🤖 Bot Commands
 
 ## 🤖 Bot Commands
 

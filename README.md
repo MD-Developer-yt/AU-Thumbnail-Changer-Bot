@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?lines=Welcome+To+Anime_UpdatesAU+Github+I'm+AU+Thumbnail+Changer+Bot+Bot+is+Made+By+Mohammed&font=Fira+Code&size=30&duration=3000&color=1e90ff&center=true" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?lines=Welcome+To+Anime_UpdatesAU+Github+Im+AU+Thumbnail+Changer+Bot+Bot+is+Made+By+Mohammed&font=Fira+Code&size=30&duration=3000&color=1e90ff&center=true" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -65,6 +65,80 @@
 
 ---
 
+## ⚙️ Configuration
+
+These are the **environment variables** required to run Anime_UpdatesAU:
+
+<table>
+  <thead>
+    <tr>
+      <th>Variable</th>
+      <th>Description</th>
+      <th>Required</th>
+      <th>Example / Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>API_TOKEN</code></td>
+      <td>Bot token from <a href="https://t.me/BotFather" target="_blank">@BotFather</a></td>
+      <td>✅</td>
+      <td><code>123456789:ABCDEFxyz1234567890</code></td>
+    </tr>
+    <tr>
+      <td><code>MONGO_URL</code></td>
+      <td>MongoDB connection string for storing user data</td>
+      <td>✅</td>
+      <td><code>mongodb+srv://user:pass@cluster0.mongodb.net/dbname</code></td>
+    </tr>
+    <tr>
+      <td><code>OWNER_ID</code></td>
+      <td>Your Telegram user ID (numeric)</td>
+      <td>✅</td>
+      <td><code>123456789</code></td>
+    </tr>
+    <tr>
+      <td><code>LOG_CHANNEL</code></td>
+      <td>Channel ID for logs (optional)</td>
+      <td>❌</td>
+      <td><code>-1001234567890</code></td>
+    </tr>
+    <tr>
+      <td><code>CHANNEL_URL</code></td>
+      <td>Public URL for Telegram channel (optional, join button)</td>
+      <td>❌</td>
+      <td><a href="https://t.me/Anime_UpdatesAU" target="_blank">https://t.me/Anime_UpdatesAU</a></td>
+    </tr>
+    <tr>
+      <td><code>DEV_URL</code></td>
+      <td>Telegram URL of the developer (optional)</td>
+      <td>❌</td>
+      <td><a href="https://t.me/Mohammed" target="_blank">https://t.me/Mohammed</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+---
+
+## 🤖 Bot Commands
+
+<p align="center">
+  <a href="https://t.me/BotFather" target="_blank" style="background-color:#228B22;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/start</a>
+  <a href="#" style="background-color:#FF8C00;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/users</a>
+  <a href="#" style="background-color:#FF4500;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/topleaderboard</a>
+  <a href="#" style="background-color:#8A2BE2;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/broadcast</a>
+  <a href="#" style="background-color:#DC143C;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/ban</a>
+  <a href="#" style="background-color:#1E90FF;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/unban</a>
+  <a href="#" style="background-color:#00CED1;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/add_admin</a>
+  <a href="#" style="background-color:#FF1493;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/remove_admin</a>
+</p>
+
+<p align="center">
+  💡 Tip: Copy these commands and send to your bot to test instantly!
+</p>
+
 <p align="center">
 
 <a href="https://t.me/AU_Thumbnail_Changer_bot" target="_blank" style="
@@ -116,8 +190,18 @@
 
 ---
 
+---
+
+## Fork and ⭐ this repo 
+Don't Remove Credits From Repo
+Supports Group @AU_Bot_Discussion 
+Telegram Channel @Anime_UpdatesAU 
+Developer @Mr_Mohammed_29
 <p align="center">
-🎖️ If you like this bot, don’t forget to <b>star 🌟 the repo</b>!
+  If you like this bot, give it a ⭐ on GitHub to support the project!  
+  <a href="https://github.com/MD-Developer-yt/AU-Thumbnail-Changer-Bot" target="_blank">
+    <img src="https://img.shields.io/github/stars/yourusername/anime_updatesau?style=social&label=Star&logo=github" alt="GitHub stars">
+  </a>
 </p>
 
 ---

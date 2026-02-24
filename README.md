@@ -1,4 +1,22 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=3AF01CF1&background=FF000000&width=435&lines=Welcome+To+Anime_UpdatesAU+Github+It+is+Amazing+AU+Thumbnail+Changer+Bot%2C+Bot+is+made+by+Mohammed" alt="Typing SVG" /></a>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?lines=Welcome+To+Anime_UpdatesAU+Github+I'm+AU+Thumbnail+Changer+Bot+Bot+is+Made+By+Mohammed&font=Fira+Code&size=30&duration=3000&color=1e90ff&center=true" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python 3"/>
+  </a>
+  <a href="https://docs.pyrogram.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Framework-Pyrogram-brightgreen?style=for-the-badge&logo=pyrogram&logoColor=white" alt="Pyrogram"/>
+  </a>
+  <a href="https://t.me/Anime_UpdatesAU" target="_blank">
+    <img src="https://img.shields.io/badge/Developer-Mohammed-purple?style=for-the-badge&logo=telegram&logoColor=white" alt="Developer"/>
+  </a>
+  <a href="https://t.me/AU_Bot_Discussion" target="_blank">
+    <img src="https://img.shields.io/badge/Support-Group-blueviolet?style=for-the-badge&logo=telegram&logoColor=white" alt="Support Group"/>
+  </a>
+</p>
+
 ---
 
 ## 🛠 Features
@@ -11,7 +29,7 @@
 <li>🏆 <b>Leaderboard</b> – Track top users</li>
 <li>🛡️ <b>Admin Controls</b> – Ban, Broadcast, Stats</li>
 <li>📏 <b>Recommended Size</b> – 1280x720 px, under 2 MB, Ratio 16:9 or 16:8</li>
-<li>🐍 <b>Python 3</b> – Uses latest Python 3 version</li>
+<li>🐍 <b>Python 3</b> – Latest version</li>
 <li>⚡ <b>Pyrogram</b> – Lightweight Telegram API framework</li>
 </ul>
 
@@ -39,29 +57,13 @@
 </p>
 
 **Steps:**  
-1. Fork this repo: <a href="https://github.com/MD-Developer-yt/AU-Thumbnail-Changer-Bot" target="_blank">AU Thumbnail Changer Bot  Repo</a>  
+1. Fork this repo: <a href="https://github.com/MD-Developer-yt/AU-Thumbnail-Changer-Bot" target="_blank">AU Thumbnail Changer Bot</a>  
 2. Create new App / Service  
 3. Connect GitHub repo  
 4. Add environment variables / config vars  
 5. Deploy  
 
 ---
-
-## 🐳 Docker
-
-```bash
-docker build -t anime_updatesau-thumbnail-bot .
-docker run --env-file .env anime_updatesau-thumbnail-bot
-
----
-
-💻 Local
-
-pip install -r requirements.txt
-python main.py
-
----
-
 
 <p align="center">
 

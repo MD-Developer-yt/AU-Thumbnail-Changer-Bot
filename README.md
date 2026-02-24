@@ -1,4 +1,4 @@
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=3AF01CF1&background=FF000000&width=435&lines=Welcome+To+Anime_UpdatesAU+Github%2CIt+is+Amazing+AU+Thumbnail+Changer+Bot%2C+Bot+is+made+by+Mohammed" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=3AF01CF1&background=FF000000&width=435&lines=Welcome+To+Anime_UpdatesAU+Github+It+is+Amazing+AU+Thumbnail+Changer+Bot%2C+Bot+is+made+by+Mohammed" alt="Typing SVG" /></a>
 ---
 
 ## 🛠 Features
@@ -62,7 +62,6 @@ python main.py
 
 ---
 
-═★═★═★═ **🚀 Quick Links** ═★═★═★═  
 
 <p align="center">
 
@@ -128,3 +127,5 @@ python main.py
   <img src="https://img.shields.io/badge/Pyrogram-v2.0-green" alt="Pyrogram">
   <img src="https://img.shields.io/badge/Telegram-Bot-blueviolet" alt="Telegram">
 </p>
+
+---

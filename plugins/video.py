@@ -50,7 +50,7 @@ async def handle_video(message: types.Message, bot: Bot):
     
     # Build keyboard
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
-        [InlineKeyboardButton(text="⚙️ Settings", callback_data="settings")]
+        [InlineKeyboardButton(text="⚙️ sᴇᴛᴛɪɴɢs", callback_data="settings")]
     ])
     
     if thumb_file_id:

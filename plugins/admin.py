@@ -47,6 +47,11 @@ async def check_admin(message: types.Message) -> bool:
         await message.answer(f"⛔ {small_caps('Admin only command.')}")
         return False
     return True
+    
+    #Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 
 # ==================== USERS COMMAND ====================
 
@@ -113,6 +118,11 @@ async def remove_admin_cmd(message: types.Message):
         await message.answer(f"✅ {small_caps('Admin removed:')} <code>{user_id}</code>", parse_mode="HTML")
     else:
         await message.answer(f"❌ {small_caps('User was not an admin.')}")
+        
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 
 # ==================== BAN/UNBAN ====================
 
@@ -171,6 +181,11 @@ async def unban_cmd(message: types.Message):
         await message.answer(f"❌ {small_caps('User not found or not banned.')}")
 
 # ==================== LEADERBOARD ====================
+
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
 
 @router.message(Command("topleaderboard"))
 async def leaderboard_cmd(message: types.Message):
@@ -257,3 +272,7 @@ async def do_broadcast(message: types.Message, state: FSMContext, bot: Bot):
         f"❌ {small_caps('Failed:')} {failed}"
     )
 
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29

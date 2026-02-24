@@ -1,0 +1,39 @@
+{
+    "name": "Thumbnail Bot",
+    "description": "A Telegram bot to add custom thumbnails to videos",
+    "repository": "https://github.com/MD-Developer-yt/AU-Thumbnail-Changer-Bot",
+    "logo": "https://files.catbox.moe/hh2ubq.jpg",
+    "keywords": [
+        "telegram",
+        "bot",
+        "thumbnail",
+        "video"
+    ],
+    "stack": "container",
+    "env": {
+        "API_TOKEN": {
+            "description": "Telegram Bot Token from @BotFather",
+            "required": true
+        },
+        "MONGO_URL": {
+            "description": "MongoDB Connection String",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "Your Telegram User ID",
+            "required": true
+        },
+        "CHANNEL_URL": {
+            "description": "Channel URL for Join button",
+            "required": false
+        },
+        "DEV_URL": {
+            "description": "Developer Telegram URL",
+            "required": false
+        },
+        "LOG_CHANNEL": {
+            "description": "Log Channel ID (e.g., -100xxxx)",
+            "required": false
+        }
+    }
+}

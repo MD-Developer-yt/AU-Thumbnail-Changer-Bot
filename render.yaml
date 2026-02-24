@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: cantarellabots-thumbnail-bot
+    name: au-thumbnail-changer-bot
     env: docker
     dockerfilePath: ./Dockerfile
     plan: free
@@ -15,3 +15,8 @@ services:
         sync: false
       - key: DEV_URL
         sync: false
+
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29

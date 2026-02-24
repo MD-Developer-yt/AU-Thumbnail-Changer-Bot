@@ -188,7 +188,7 @@ These are the **environment variables** required to run Bot:
 <p align="center">
   If you like this bot, give it a ⭐ on GitHub to support the project!  
   <a href="https://github.com/MD-Developer-yt/AU-Thumbnail-Changer-Bot" target="_blank">
-    <img src="https://img.shields.io/github/stars//MD-Developer-yt/AU-Thumbnail-Changer-Bot?style=social&label=Star&logo=github" alt="GitHub stars">
+    <img src="https://img.shields.io/github/stars//AU-Thumbnail-Changer-Bot?style=social&label=Star&logo=github" alt="GitHub stars">
   </a>
 </p>
 # ᴅᴏɴ'ᴛ ʀᴇᴍᴏᴠᴇ ᴍʏ ᴄʀᴇᴅɪᴛ...

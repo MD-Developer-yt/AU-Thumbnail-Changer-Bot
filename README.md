@@ -1,5 +1,11 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7F1&width=435&lines=Welcome+To+MD+Developer+Yt+Github;It+is+Amazing+AU+Thumbnail+Changer+Bot;Bot+is+Made+By+Mohammed)](https://git.io/typing-svg)
 
+## 👀 Profile Visitors
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=MD-Developer-yt&color=blue&style=flat-square" alt="Profile Views" />
+</p>
+
 <p align="center">
   <a href="https://www.python.org/" target="_blank">
     <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python 3"/>

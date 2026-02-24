@@ -58,7 +58,7 @@ async def start_cmd(message: types.Message, bot: Bot):
     
     # Welcome text in small caps with blockquote
     welcome_text = (
-        f"<b>{small_caps('Welcome to Thumbnail Bot!')}</b>\n\n"
+        f"<b>{small_caps('Welcome to AU Thumbnail Changer Bot!')}</b>\n\n"
         f"<blockquote>{small_caps('Send me a video and I will add your custom thumbnail to it.')}</blockquote>\n\n"
         f"<b>{small_caps('How to use:')}</b>\n"
         f"<blockquote>"

@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7F1&width=435&lines=Welcome+To+MD+Developer+Yt+Github;It+is+Amazing+AU+Thumbnail+Changer+Bot+;Bot+is+Made+By+Mohammed)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7F1&width=435&lines=Welcome+To+MD+Developer+Yt+Github;It+is+Amazing+AU+Thumbnail+Changer+Bot+Bot+is+Made+By+Mohammed)](https://git.io/typing-svg)
 
 <p align="center">
   <a href="https://www.python.org/" target="_blank">
@@ -46,20 +46,25 @@
 
 ---
 
+---
+
 ## 🚀 Deployment
 
-<p>
-<a href="https://www.heroku.com/" target="_blank" style="background-color:#430098;color:white;padding:8px 12px;text-decoration:none;border-radius:5px;">Deploy on Heroku</a>
-<a href="https://render.com/" target="_blank" style="background-color:#00BFFF;color:white;padding:8px 12px;text-decoration:none;border-radius:5px;">Deploy on Render</a>
-<a href="https://www.koyeb.com/" target="_blank" style="background-color:#1E90FF;color:white;padding:8px 12px;text-decoration:none;border-radius:5px;">Deploy on Koyeb</a>
+<p align="center">
+  <a href="https://www.heroku.com/" target="_blank" style="background-color:#430098;color:white;padding:8px 12px;text-decoration:none;border-radius:5px;margin:4px;">Deploy on Heroku</a>
+  <a href="https://render.com/" target="_blank" style="background-color:#00BFFF;color:white;padding:8px 12px;text-decoration:none;border-radius:5px;margin:4px;">Deploy on Render</a>
+  <a href="https://www.koyeb.com/" target="_blank" style="background-color:#1E90FF;color:white;padding:8px 12px;text-decoration:none;border-radius:5px;margin:4px;">Deploy on Koyeb</a>
 </p>
 
-**Steps:**  
-1. Fork this repo: <a href="https://github.com/MD-Developer-yt/AU-Thumbnail-Changer-Bot" target="_blank">AU Thumbnail Changer Bot</a>  
-2. Create new App / Service  
-3. Connect GitHub repo  
-4. Add environment variables / config vars  
-5. Deploy  
+### Steps to Deploy:
+
+1. Fork this repo: <a href="https://github.com/yourusername/anime_updatesau" target="_blank">Anime_UpdatesAU Repo</a>  
+2. Create a new App / Service on the chosen platform.  
+3. Connect your GitHub repository.  
+4. Add environment variables / config vars.  
+5. Deploy and start your bot.  
+
+💡 **Tip:** Make sure `API_TOKEN`, `MONGO_URL`, and `OWNER_ID` are set before running the bot.
 
 ---
 
@@ -122,64 +127,30 @@ These are the **environment variables** required to run Bot:
 
 ## 🤖 Bot Commands
 
-<p align="center">
-  <a href="https://t.me/BotFather" target="_blank" style="background-color:#228B22;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/start</a>
-  <a href="#" style="background-color:#FF8C00;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/users</a>
-  <a href="#" style="background-color:#FF4500;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/topleaderboard</a>
-  <a href="#" style="background-color:#8A2BE2;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/broadcast</a>
-  <a href="#" style="background-color:#DC143C;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/ban</a>
-  <a href="#" style="background-color:#1E90FF;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/unban</a>
-  <a href="#" style="background-color:#00CED1;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/add_admin</a>
-  <a href="#" style="background-color:#FF1493;color:white;padding:6px 10px;text-decoration:none;border-radius:4px;">/remove_admin</a>
-</p>
+## 🤖 Bot Commands
+
+| Command | Description |
+|---------|------------|
+| `/start` | Start the bot and get welcome message |
+| `/users` | (Admin) View all users in the database |
+| `/topleaderboard` | (Admin) Shows the top users by activity |
+| `/broadcast` | (Admin) Send a message to all users |
+| `/ban` | (Admin) Ban a specific user |
+| `/unban` | (Admin) Unban a user |
+| `/add_admin` | (Owner) Add a new admin |
+| `/remove_admin` | (Owner) Remove an admin |
+| `/set_thumbnail` | Upload or change a custom thumbnail |
+| `/view_thumbnail` | View the current thumbnail |
+| `/remove_thumbnail` | Remove the current thumbnail |
 
 <p align="center">
-  💡 Tip: Copy these commands and send to your bot to test instantly!
+  💡 Tip: Copy these commands and send to your bot to test 
 </p>
-
-<p align="center">
-
-<a href="https://t.me/AU_Thumbnail_Changer_bot" target="_blank" style="
-  background-color:#ff4c4c;
-  color:white;
-  padding:12px 24px;
-  border-radius:8px;
-  text-decoration:none;
-  font-weight:bold;
-  font-size:16px;
-  margin-right:10px;
-  display:inline-block;">
-  🤖 Open Bot
-</a>
-
-<a href="https://t.me/AU_Bot_Discussion" target="_blank" style="
-  background-color:#4caf50;
-  color:white;
-  padding:12px 24px;
-  border-radius:8px;
-  text-decoration:none;
-  font-weight:bold;
-  font-size:16px;
-  display:inline-block;">
-  💬 Support Group
-</a>
-
-<a href="https://github.com/MD-Developer-yt/AU-Thumbnail-Changer-Bot" target="_blank" style="
-  background-color:#1e90ff;
-  color:white;
-  padding:12px 24px;
-  border-radius:8px;
-  text-decoration:none;
-  font-weight:bold;
-  font-size:16px;
-  margin-left:10px;
-  display:inline-block;">
-  💻 Source Code
-</a>
-
-</p>
-
 ---
+
+「 ɴᴏᴛᴇ 」
+ɪᴍᴘᴏʀᴛɪɴɢ ᴛʜɪs ʀᴇᴘᴏ ɪɴsᴛᴇᴀᴅ ᴏғ ғᴏʀᴋɪɴɢ ɪs sᴛʀɪᴄᴛʟʏ ᴘʀᴏʜɪʙɪᴛᴇᴅ 🚫 ᴋɪɴᴅʟʏ ғᴏʀᴋ ᴀɴᴅ ᴇᴅɪᴛ ᴀs ʏᴏᴜʀ ᴡɪsʜ (ᴍᴜsᴛ ɢɪᴠᴇ ᴄʀᴇᴅɪᴛs ғᴏʀ ᴅᴇᴠs) 🙃
+ɪғ ʏᴏᴜ ғɪɴᴅ ᴀɴʏ ʙᴜɢs ᴏʀ ᴇʀʀᴏʀs, ʀᴇᴘᴏʀᴛ ɪᴛ ᴛᴏ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ.
 
 ═★═★═★═ **🏆 Credits** ═★═★═★═  
 
@@ -191,10 +162,6 @@ These are the **environment variables** required to run Bot:
 ---
 
 ## Fork and ⭐ this repo 
-Don't Remove Credits From Repo
-Supports Group @AU_Bot_Discussion 
-Telegram Channel @Anime_UpdatesAU 
-Developer @Mr_Mohammed_29
 <p align="center">
   If you like this bot, give it a ⭐ on GitHub to support the project!  
   <a href="https://github.com/MD-Developer-yt/AU-Thumbnail-Changer-Bot" target="_blank">

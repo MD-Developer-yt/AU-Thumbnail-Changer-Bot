@@ -1,0 +1,1 @@
+# AU-Thumbnail-Changer-Bot

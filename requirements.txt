@@ -2,3 +2,8 @@ aiogram>=3.0.0
 motor>=3.0.0
 flask>=2.0.0
 aiohttp>=3.8.0
+
+#Don't Remove Credits 
+#Supports Group @AU_Bot_Discussion 
+#Telegram Channel @Anime_UpdatesAU
+#Developer @Mr_Mohammed_29
